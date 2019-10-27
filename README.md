@@ -13,7 +13,7 @@ Please create a pullrequest to update the list.
 
 This repository also provide free Rest API endpoint. The api endpoints serves up-to-dated data in the master branch.
 
-When your pullrequest is merged, [Z.A.R.V.I.S.][https://zarvis.ai] will be automatically build and deploy the new version.
+When your pullrequest is merged, https://zarvis.ai will be automatically build and deploy the new version.
 
 
 #### List all email providers
@@ -42,8 +42,8 @@ https://email--providers-zarvis--ai.g1.zarvis.ai/<email or domain>
 
 Response
 
-200 - when email or domain is in the provider list
-404 - when email or domain is not in the provider list
+ - 200 - when email or domain is in the provider list
+ - 404 - when email or domain is not in the provider list
 
 
 Example request
