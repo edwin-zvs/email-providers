@@ -3,7 +3,7 @@
 This repository provides list of email providers in csv format.
 
 ## CSV file
-Check [email-providers.csv](https://github.com/zarvis-ai/email-providers/blob/master/email-providers.csv).
+Check [email-providers.csv](https://github.com/edwin-zvs/email-providers/blob/master/email-providers.csv).
 
 This list is useful when you want check if your user's email address is company mail address or not.
 
@@ -20,7 +20,7 @@ When your pullrequest is merged, https://zarvis.ai will be automatically build a
 
 Request (GET)
 ```
-https://email--providers-zarvis--ai.g1.zarvis.ai
+https://email--providers-edwin--zvs.g1.zarvis.ai
 ```
 
 Response (200, Content-Type: application/json)
@@ -37,7 +37,7 @@ Response (200, Content-Type: application/json)
 
 Request
 ```
-https://email--providers-zarvis--ai.g1.zarvis.ai/<email or domain>
+https://email--providers-edwin--zvs.g1.zarvis.ai/<email or domain>
 ```
 
 Response
@@ -49,9 +49,9 @@ Response
 Example request
 
 ```
-https://email--providers-zarvis--ai.g1.zarvis.ai/foo@gmail.com
-https://email--providers-zarvis--ai.g1.zarvis.ai/gmail.com
-https://email--providers-zarvis--ai.g1.zarvis.ai/bar.com
+https://email--providers-edwin--zvs.g1.zarvis.ai/foo@gmail.com
+https://email--providers-edwin--zvs.g1.zarvis.ai/gmail.com
+https://email--providers-edwin--zvs.g1.zarvis.ai/bar.com
 ```
 
 
