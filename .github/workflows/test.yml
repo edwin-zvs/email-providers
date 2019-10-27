@@ -1,0 +1,15 @@
+name: email providers
+
+on: [push, pull_request]
+
+jobs:
+  license-check:
+    runs-on: ubuntu-18.04
+    steps:
+    - uses: actions/checkout@v1
+    - name: Install libraries
+      run: |
+        pip install flask
+    - name: Run test
+      run: |
+        python app_test.py
