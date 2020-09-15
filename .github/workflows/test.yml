@@ -3,7 +3,7 @@ name: email providers
 on: [push, pull_request]
 
 jobs:
-  license-check:
+  web-app-check:
     runs-on: ubuntu-18.04
     steps:
     - uses: actions/checkout@v1
@@ -13,3 +13,16 @@ jobs:
     - name: Run test
       run: |
         python app_test.py
+  provider-list-check:
+    runs-on: ubuntu-18.04
+    steps:
+    - uses: actions/checkout@v1
+    - name: Install dependencies
+      run: |
+        pip install tldextract
+    - name: Domains are unique and sorted check
+      run: |
+        python checks/unique-and-sorted-check.py
+    - name: Valid domain check
+      run: |
+        python checks/valid-domain-check.py
