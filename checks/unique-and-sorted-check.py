@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 def main():
     provider_file = open('email-providers.csv', 'r')
 
