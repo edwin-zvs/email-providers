@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 providers_filename = "email-providers.csv"
-with open("email-providers.csv", 'r') as providers_file:
+with open(providers_filename, 'r') as providers_file:
     lines = providers_file.readlines()
 
 for i in range(len(lines)):
