@@ -1,5 +1,15 @@
+#!/usr/bin/python3
+
+import os
+
 def main():
-    provider_file = open('email-providers.csv', 'r')
+    file_paths = ["email-providers.csv", "../email-providers.csv"]
+    file_path = file_paths[0]
+    for path in file_paths:
+        if os.path.exists(path):
+            file_path = path
+            break
+    provider_file = open(file_path, 'r')
 
     provider_domains = []
     all_good = True
