@@ -1,19 +1,23 @@
 # Email Providers
 
-This repository provides list of email providers in csv format.
+This repository provides a list of email providers in csv format.
 
 ## CSV file
-Check [email-providers.csv](https://github.com/edwin-zvs/email-providers/blob/master/email-providers.csv).
+Check [email-providers.csv](email-providers.csv).
 
-This list is useful when you want check if your user's email address is company mail address or not.
+This list is useful when you want check if your user's email address is a
+company mail address or not.
 
-Please create a pullrequest to update the list.
+Please create a pull request to update the list.
+You can add new domains at the end of the
+[email-providers.csv](email-providers.csv) file and then run `python3 sort.py`
+to automatically insert them at the right place.
 
 ## Rest API
 
 This repository also provide free Rest API endpoint. The api endpoints serves up-to-dated data in the master branch.
 
-When your pullrequest is merged, https://zarvis.ai will be automatically build and deploy the new version.
+When your pull request is merged, https://zarvis.ai will be automatically build and deploy the new version.
 
 
 #### List all email providers
